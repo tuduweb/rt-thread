@@ -259,7 +259,6 @@ rt_inline rt_err_t _ipc_list_resume_all(rt_list_t *list)
     return RT_EOK;
 }
 
-/**@}*/
 
 #ifdef RT_USING_SEMAPHORE
 /**
