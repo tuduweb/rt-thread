@@ -18,6 +18,12 @@
 
 #ifdef RT_USING_SIGNALS
 
+/**
+ * @addtogroup Signals
+ * \ingroup IPC
+ * @{
+ */
+
 #ifndef RT_SIG_INFO_MAX
 #define RT_SIG_INFO_MAX 32
 #endif /* RT_SIG_INFO_MAX */
@@ -652,4 +658,5 @@ int rt_system_signal_init(void)
     return 0;
 }
 
+/**@}*/
 #endif /* RT_USING_SIGNALS */

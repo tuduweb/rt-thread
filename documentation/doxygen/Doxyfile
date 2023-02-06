@@ -2300,6 +2300,7 @@ PREDEFINED             = RT_USING_SEMAPHORE \
                          RT_USING_MAILBOX \
                          RT_USING_MESSAGEQUEUE \
                          RT_USING_MEMPOOL \
+                         RT_USING_SIGNALS \
                          RT_USING_HOOK \
                          RT_USING_SMALL_MEM \
                          RT_USING_DEVICE \
