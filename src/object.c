@@ -161,9 +161,8 @@ void (*rt_object_put_hook)(struct rt_object *object);
 
 /**
  * @addtogroup Hook
+ * @{
  */
-
-/**@{*/
 
 /**
  * @brief This function will set a hook function, which will be invoked when object

@@ -2253,7 +2253,7 @@ ENABLE_PREPROCESSING   = YES
 # The default value is: NO.
 # This tag requires that the tag ENABLE_PREPROCESSING is set to YES.
 
-MACRO_EXPANSION        = NO
+MACRO_EXPANSION        = YES
 
 # If the EXPAND_ONLY_PREDEF and MACRO_EXPANSION tags are both set to YES then
 # the macro expansion is limited to the macros specified with the PREDEFINED and
@@ -2302,15 +2302,16 @@ PREDEFINED             = RT_USING_SEMAPHORE \
                          RT_USING_MEMPOOL \
                          RT_USING_SIGNALS \
                          RT_USING_HOOK \
+                         RT_HOOK_USING_FUNC_PTR \
                          RT_USING_SMALL_MEM \
                          RT_USING_DEVICE \
                          RT_USING_MODULE \
                          RT_USING_DFS \
+                         RT_USING_PM \
                          FINSH_USING_SYMTAB \
                          FINSH_USING_DESCRIPTION \
                          RT_USING_FINSH \
-                         RT_USING_HEAP \
-                         RT_USING_MODULE
+                         RT_USING_HEAP
 
 # If the MACRO_EXPANSION and EXPAND_ONLY_PREDEF tags are set to YES then this
 # tag can be used to specify a list of macro names that should be expanded. The

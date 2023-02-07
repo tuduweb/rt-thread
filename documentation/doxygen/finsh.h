@@ -3,7 +3,7 @@
  */
 
 /**
- * @defgroup finsh finsh shell
+ * @defgroup finsh Finsh Shell
  *
  * @brief finsh shell is a user command shell in RT-Thread RTOS.
  *

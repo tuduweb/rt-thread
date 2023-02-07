@@ -70,9 +70,8 @@ static void (*rt_timer_exit_hook)(struct rt_timer *timer);
 
 /**
  * @addtogroup Hook
+ * @{
  */
-
-/**@{*/
 
 /**
  * @brief This function will set a hook function on timer,

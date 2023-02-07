@@ -16,8 +16,18 @@
 
 /**
  * @addtogroup Kernel
+ * @{
  */
-/*@{*/
+
+/**
+ * @defgroup BasicDef Basic Definitions
+ * @brief Basic data type in RT-Thread RTOS.
+ *
+ * These are the basic definitions which used in RT-Thread RTOS. In general,
+ * RT-Thread kernel uses its own definition of the basic data types, such as
+ * rt_uint32_t, rt_uint8_t, etc., which does not depend on the compiler or
+ * architecture.
+ */
 
 /**
  * @defgroup Thread Thread Management
@@ -115,21 +125,6 @@
  */
 
 /**
- * @defgroup Device Device System
- * @brief device I/O subsystem
- *
- * The Device System is designed as simple and minimum layer to help communication between
- * applications and drivers.
- *
- * The Device System provide five interfaces to driver:
- * - open, open a device
- * - close, close a device
- * - read, read some data from a device
- * - write, write some data to a device
- * - control, send some control command to a device
- */
-
-/**
  * @defgroup Hook Runtime Trace and Record
  * @brief the hook function set in runtime
  *
@@ -157,4 +152,4 @@
  * bad things happen, the current thread's errno will be set. see @ref _rt_errno
  */
 
-/*@}*/
+/**@}*/

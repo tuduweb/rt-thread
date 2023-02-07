@@ -64,9 +64,8 @@ static void (*rt_scheduler_switch_hook)(struct rt_thread *tid);
 
 /**
  * @addtogroup Hook
+ * @{
  */
-
-/**@{*/
 
 /**
  * @brief This function will set a hook function, which will be invoked when thread

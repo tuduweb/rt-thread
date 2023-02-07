@@ -35,9 +35,8 @@ static void (*rt_tick_hook)(void);
 
 /**
  * @addtogroup Hook
+ * @{
  */
-
-/**@{*/
 
 /**
  * This function will set a hook function, which will be invoked when tick increase

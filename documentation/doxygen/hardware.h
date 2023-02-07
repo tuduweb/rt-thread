@@ -19,8 +19,8 @@
 
 /**
  * @addtogroup bsp
+ * @{
  */
-/*@{*/
 
 /**
  * This function will return current system interrupt status and disable system
@@ -82,4 +82,4 @@ void rt_hw_cpu_reset(void);
  */
 void rt_hw_cpu_shutdown(void);
 
-/*@}*/
+/**@}*/

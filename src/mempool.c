@@ -35,9 +35,8 @@ static void (*rt_mp_free_hook)(struct rt_mempool *mp, void *block);
 
 /**
  * @addtogroup Hook
+ * @{
  */
-
-/**@{*/
 
 /**
  * @brief This function will set a hook function, which will be invoked when a memory
